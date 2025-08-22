@@ -27,6 +27,6 @@ object bolichito {
     return !self.esEquilibrado() || self.esMonocromatico()
   }
   method puedeOfrecerleAlgoA(unaPersona) {
-    unaPersona.leGusta(objetoEnMostrador) || unaPersona.leGusta(objetoEnVidriera)
+    return unaPersona.leGusta(objetoEnMostrador) || unaPersona.leGusta(objetoEnVidriera)
   }    
 }
